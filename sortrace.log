@@ -1,0 +1,45 @@
+=======Start=======
+adamc08
+Sun Nov  1 19:31:42 PST 2026
+My machine has this many processors
+24
+Generating 1000000 random numbers
+argc = 4
+argv[0] = ./generate
+argv[1] = 1000000
+argv[2] = -1000000
+argv[3] = 1000000
+Created numbers.dat with 1000000 numbers
+Starting system sort
+
+real	0m0.120s
+user	0m0.260s
+sys	0m0.066s
+Starting my sort
+Process 13 swap count:978019279
+Process 0 swap count:976462304
+Process 11 swap count:973474730
+Process 1 swap count:974941363
+Process 10 swap count:977074103
+Process 14 swap count:982994818
+Process 6 swap count:974407839
+Process 7 swap count:979424976
+Process 15 swap count:981429887
+Process 8 swap count:975982476
+Process 5 swap count:975049769
+Process 3 swap count:975524182
+Process 12 swap count:976434233
+Process 4 swap count:976660000
+Process 2 swap count:975153165
+Process 9 swap count:975384080
+Total Swaps:15628417204
+
+real	0m8.407s
+user	2m9.847s
+sys	0m0.152s
+-rw-r--r-- 1 adamc08 adamc08 7388511 Nov  1 19:31 systemsort.out
+-rw-r--r-- 1 adamc08 adamc08 7388511 Nov  1 19:31 mysort.out
+Comparing systemsort.out to mysort.out
+All done with diff compare
+=======End=======
+Sun Nov  1 19:31:57 PST 2026
